@@ -1,0 +1,222 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body{
+font-family: 'Roboto', sans-serif;
+height: 100%;
+width: 100%;
+}
+
+@media screen {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-0 {width: 4.16%;}
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+    /*border: 1px dashed rgba(255,0,0,0.3);*/
+    height:100%;
+    /*display: inline-block;*/
+}
+
+#chinesediv{
+  width:83.33%;
+  transform:translateY(80%);
+}
+#chinese{
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+.bgimg{
+  background-image: url('night1.gif');
+}
+
+/* .topbar */
+.topbar a{
+  font-weight: 700;
+  font-size: 200%;
+  text-decoration: none;
+  color:black;
+  position: fixed;
+  z-index: 500;
+  /* transform: translateY(-70%); */
+}
+
+#haitong{
+  font-size: 1000%;
+  border-bottom: 10px solid #0000ff;
+}
+#haitong:hover{
+  border-bottom: 10px solid red;
+}
+
+.topbar a:hover{
+  border-bottom: 4px solid red;
+  cursor:pointer;
+}
+#home{
+  margin-left: 25%;
+}
+#trip{
+  background-color: black;
+  color:white;
+}
+.gifs img{
+  float: left;
+}
+#gif1{
+    width: 1em;
+}
+#gif2{
+    width: 1em;
+}
+.gifs a:hover{
+  border: none;
+}
+.gifs img:hover{
+-webkit-filter: drop-shadow(0px 0px 3px blue);
+filter: drop-shadow(0px 0px 3px blue);
+}
+#headimg{
+  width:100%;
+  margin-top: -2%;
+  height: 100%;
+  padding-bottom: 0;
+}
+
+
+
+.cityname{
+  font-weight: 700;
+  font-size:100%;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20%;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 3000;
+}
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+.workinfo{
+  font-weight: 400;
+  font-size:300%;
+  width: 83.33%;
+  margin-bottom: 10%;
+  display: inline-block;
+}
+
+.worktitle{
+  color:black;
+  font-weight: 400;
+  font-size:300%;
+  margin-top: 2%;
+  width: 83.33%;
+}
+.year{
+  color:blue;
+  font-weight: 400;
+  font-size:300%;
+  margin-top: 2%;
+  width: 16.66%;
+  margin-bottom: 8%;
+  transform: translateY(5%);
+}
+
+
+
+
+#tags a{
+  font-weight: 400;
+  font-size: 120%;
+  text-decoration: none;
+  color:black;
+  z-index: 499;
+  text-align: left;
+  float: left;
+}
+#tags a:hover{
+  font-size: 130%;
+  font-weight: 500;
+  cursor: pointer;
+  color:blue;
+}
+.taglist{
+  width: 12%;
+  margin-left:87.5%;
+  position: fixed;
+  margin-top: 34%;
+  padding-right: 15%;
+}
+.taglist:hover{
+  margin-left:87.5%;
+  position: fixed;
+  margin-top: 34%;
+}
+.taglist li{
+  list-style: none;
+  line-height: 1.5;
+}
+
+.nature, .outwall, .inwall{
+  width: 15%;
+}
+#xi{
+  width:50%;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+
+/* @media screen and (max-width: 500px){
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.photofeed{
+    width: 91.66%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work{
+    width: 91.66%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col-"] {
+    display: inline-block;
+} */
