@@ -21,7 +21,7 @@ $("#home").hide();
  } );
 
   $( "#b-nature" ).click(function() {
-      $('.nature').toggle();
+      $('.nature').show();
       });
   $('.nature').each(function(i,el){
 
@@ -33,7 +33,7 @@ $("#home").hide();
 
 
    $("#b-outwall").click(function(){
-     $(".outwall").toggle();
+     $(".outwall").show();
    });
   $('.outwall').each(function(i,el){
 
@@ -44,7 +44,7 @@ $("#home").hide();
 });
 
 $("#b-inwall").click(function(){
-  $(".inwall").toggle();
+  $(".inwall").show();
   });
   $('.inwall').each(function(i,el){
 
